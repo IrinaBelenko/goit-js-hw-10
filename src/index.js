@@ -1,6 +1,6 @@
 import './css/styles.css';
-import { fetchCountries } from './fetchCountries';
-import { createMarkupList, createMarkupCard } from './cardTemplate';
+import { fetchCountries } from './js/fetchCountries';
+import { createMarkupList, createMarkupCard } from './js/cardTemplate';
 import debounce from 'lodash.debounce';
 import { Notify } from 'notiflix/build/notiflix-notify-aio';
 
